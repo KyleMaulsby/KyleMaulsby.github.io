@@ -1,0 +1,79 @@
+body {
+    background: url("../img/My Post.png") no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+}
+.head{
+    color: #222330;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+.contain{
+    background-color: white;
+    margin: 100px 20px 50vh 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+main{
+    height: 100%;
+}
+.float{
+    visibility: hidden;
+}
+header{
+    color: white;
+}
+h1{
+    padding: 10px 0;
+    margin: 0 auto;
+    /*display: inline-block;*/
+    width: 40%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.side{
+    background: #222330;
+    position: fixed;
+    top: 0;
+    width: 175px;
+    height: 100%
+}
+.nav{
+    display: block;
+    text-align: right;
+    /*color: white;*/
+    font-size: 24px;
+    padding: 10px 0 10px 0;
+}
+.nav-item{
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+.nav-link:hover{
+    color: white;
+    background: #343542;
+}
+.about{
+    padding: 0 15px;
+}
+.face {
+    padding: 0;
+    height: 270px;
+    border-radius: 50%;
+}
+.resume{
+    width: 100%;
+    height: 1000px;
+}
+.resbut{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
